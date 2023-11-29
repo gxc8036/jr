@@ -10,5 +10,6 @@ public class Main {
         int b = Integer.parseInt(args[1]);
         int result = RustLib.INSTANCE.add(a, b);
         System.out.println("Result: " + result);
+        RustLib.INSTANCE.foo();
     }
 }
